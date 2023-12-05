@@ -27,7 +27,7 @@ class Config{
 // Look up which attribute our shader program is using
 // for aVertexPosition and look up uniform locations.
 const programInfo = {
-    program: shaderProgram,
+    program: cfg.shaderProgram,
     attribLocations: {
       vertexPosition: gl.getAttribLocation(cfg.shaderProgram, "aVertexPosition"),
     },
