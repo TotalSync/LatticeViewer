@@ -66,6 +66,7 @@ class lattice
 
 }
 
+
 var cfg = new Config();
 
 function loadInitialSettings()
